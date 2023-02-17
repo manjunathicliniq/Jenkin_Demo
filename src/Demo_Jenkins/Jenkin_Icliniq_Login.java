@@ -13,8 +13,9 @@ public class Jenkin_Icliniq_Login {
 	@Test
 	void login() throws InterruptedException {
 		
-		
-		//WebDriver driver = new FirefoxDriver();
+		WebDriverManager.firefoxdriver().setup();
+
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
