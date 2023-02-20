@@ -24,6 +24,7 @@ public class Jenkin_Icliniq_Login {
 	
 		System.out.println("Title Of the Page : " + driver.getTitle());
 		
+		
 		System.out.println("sucess");
 
 	}
